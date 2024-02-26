@@ -1,0 +1,429 @@
+html {
+  font-family: Tsukushi B Round Gothic, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+  background-image: url(images/back.png);
+  background-size: 100%;
+  background-color: aqua;
+} 
+
+/* ヘッダー */
+header {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  } 
+
+.corporate-logo-img {
+  position: absolute;
+  width: 20%;
+}
+
+/* メインビジュアル */
+.top-page {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+ }
+
+.nav-img-top {
+  width: 85%;
+}
+
+.nav-top {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title-img {
+  width: 50%;
+}
+
+.nav-img-bottom {
+  width: 65%;
+}
+
+.nav-bottom {
+  display: flex;
+  text-align: center;
+}
+
+.nav-img-bottom-center {
+  width: 65%;
+}
+
+/* 未来へ突き進む君たちへ */
+.for-student-title {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px #5e6060;
+}
+
+/* 保護者の皆様へ */
+.for-parent-title {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px #5e6060;
+}
+
+/* 君たち・保護者共通 */
+.body-box {
+  margin: 30px auto 0 auto ;
+  width: 90%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* コンテンツ */
+.contents {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contents-img {
+  width: 90%;
+}
+
+.contents-nav-top {
+  min-width: 50%;
+  position: absolute;
+  display: flex;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.contents-nav-top > a {
+  padding: 0 0.1em;
+  color: white;
+  font-size: 2.85vw;
+  white-space: nowrap;
+}
+
+.contents-nav-bottom {
+  min-width: 50%;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.contents-nav-bottom > a {
+  padding: 0 0.1em;
+  color: white;
+  font-size: 2.85vw;
+  white-space: nowrap;
+}
+
+/* フッター */
+.footer-box {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  margin-top: 100px;
+}
+
+.footer-cicle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.footer-shaft {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.footer-shaft-img {
+  width: 70px;
+  height: 70px;
+}
+
+.corporate-logo-img {
+  position: absolute;
+  top: 20%;
+}
+
+
+.corporatesite {
+  position: absolute;
+  color: #5e6060;
+  font-size: 18px;
+  bottom: 100px;
+  right: 20px;
+}
+
+.instagram-logo {
+  position: absolute;
+  top: 60%;
+  left: 85%;
+  transform: translate(-50%, -40%);
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.x-logo {
+  position: absolute;
+  top: 60%;
+  left: 90%;
+  transform: translate(-50%, -40%);
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+  
+.copyright {
+  position: absolute;
+  color: #5e6060;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 見出し */
+.top {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.top-img {
+  width: 50%;
+}
+
+/* company.html用スタイル */
+.company-box {
+  margin: 100px auto 0 auto ;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.carouselImg {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* training.html用スタイル */
+.training-box {
+  margin: 50px auto 0 auto ;
+  width: 90%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* welfare.html用スタイル */
+.welfare-contents{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.mini-box {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 1px #5e6060;
+  border-radius: 20px;
+}
+
+.welfare-box {
+  margin: 100px auto 0 auto ;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.heading {
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+ margin-top: 100px;
+}
+
+.border {
+  border: solid 2px white;
+  border-width: 20%;
+  width: 500px;
+  margin-top: 40px; 
+}
+
+
+.others {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #5e6060;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+
+.other-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.trip-img {
+  width: 400px;
+  height: 250px;
+}
+
+
+.trip-comment {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+
+}
+
+
+.other-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.event-comment {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+}
+
+
+.event-img {
+  width: 400px;
+  height: 250px;
+}
+
+/* senior.html用スタイル */
+.interview-1 {
+  width: 100%; 
+}
+
+.icon {
+  width: 90px;
+  margin: 0 20px;
+}
+
+.icon-img{
+  width: 100%;
+  height: auto;
+}
+
+.speech-bubble-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.says-left {
+  display: inline-block;
+  position: relative; 
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: white;
+}
+
+.says-left:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid white;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
+
+.interview-2 {
+  width: 100%;
+}
+
+.speech-bubble-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.says-right {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: white;
+}
+
+.says-right:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  right: -24px;
+  border: 12px solid transparent;
+  border-left: 12px solid white;
+}
+
+/* qanda.html用スタイル */
+.qanda-box {
+  margin: 30px auto 0 auto ;
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px; 
+}
+
+/* recuruit.html用スタイル */
+.recruit-box {
+  margin: 30px auto 0 auto ;
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px; 
+}
+
