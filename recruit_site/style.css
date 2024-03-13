@@ -11,27 +11,27 @@ body {
   background-color: aqua;
 } 
 
-
-.corporate-logo {
+/* ヘッダー */
+header {
+  position: relative;
+  left: 0;
   width: 100%;
-  height: 100px;
-}
-
+  height: 90px;
+  } 
 
 .corporate-logo-img {
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
+  position: absolute;
+  width: 20%;
+  margin-left: 5px;
 }
 
-
+/* メインビジュアル */
 .top-page {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
  }
-
 
 .nav-img-top {
   width: 85%;
@@ -40,7 +40,6 @@ body {
 .nav-top {
   display: flex;
   text-align: center;
-  margin-top: 30px;
 }
 
 .title {
@@ -50,6 +49,11 @@ body {
 
 .title-img {
   width: 50%;
+}
+
+.title-man {
+  width: 10%;
+  margin: 55px 40px;
 }
 
 .nav-img-bottom {
@@ -65,6 +69,7 @@ body {
   width: 65%;
 }
 
+/* 未来へ突き進む君たちへ */
 .for-student-title {
   margin-top: 100px;
   color: white;
@@ -73,14 +78,7 @@ body {
   text-shadow: 1px 1px 1px #5e6060;
 }
 
-.for-student-box {
-  margin: 30px auto 0 auto ;
-  width: 90%;
-  height: 400px;
-  background-color: white;
-  border-radius: 20px;
-}
-
+/* 保護者の皆様へ */
 .for-parent-title {
   margin-top: 100px;
   color: white;
@@ -89,28 +87,35 @@ body {
   text-shadow: 1px 1px 1px #5e6060;
 }
 
-.for-parent-box {
+/* 君たち・保護者共通 */
+.body-box {
   margin: 30px auto 0 auto ;
   width: 90%;
   height: 400px;
   background-color: white;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.box-text {
+  font-size: 20px;
+}
+
+/* コンテンツ */
 .contents {
   position: relative;
   text-align: center;
   margin-top: 100px;
 }
 
-
 .contents-img {
   width: 90%;
 }
 
-
 .contents-nav-top {
-  width: 50%;
+  min-width: 50%;
   position: absolute;
   display: flex;
   top: 35%;
@@ -118,32 +123,43 @@ body {
   transform: translate(-50%, -35%);
 }
 
+.triangle {
+  background: white;
+  height: calc(tan(60deg) * 60px / 2);
+  width: 50px;
+  clip-path: polygon(0 0, 80% 50%, 0 100%);
+}
+
 
 .contents-nav-top > a {
-  margin-right: 40px;
+  padding: 0 0.1em;
   color: white;
-  font-size: 40px;
+  font-size: 2.85vw;
   white-space: nowrap;
+  margin-right: 60px;
 }
 
 
 .contents-nav-bottom {
-  width: 50%;
+  min-width: 50%;
   position: absolute;
   display: flex;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-68%, -70%);
 }
+
 
 .contents-nav-bottom > a {
-  margin-right: 40px;
+  padding: 0 0.1em;
   color: white;
-  font-size: 40px;
+  font-size: 2.85vw;
   white-space: nowrap;
+  margin-right: 70px;
 }
 
 
+/* フッター */
 .footer-box {
   position: relative;
   background-color: white;
@@ -151,6 +167,15 @@ body {
   height: 150px;
   margin-top: 100px;
 }
+
+.footer-top-page {
+  color: #5e6060;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
 
 .footer-cicle {
   position: absolute;
@@ -219,3 +244,220 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* 見出し */
+.top {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.top-img {
+  width: 50%;
+}
+
+/* company.html用スタイル */
+.company-box {
+  margin: 100px auto 0 auto ;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.carouselImg {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* training.html用スタイル */
+.training-box {
+  margin: 50px auto 0 auto ;
+  width: 90%;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* welfare.html用スタイル */
+.welfare-contents{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.mini-box {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 1px #5e6060;
+  border-radius: 20px;
+}
+
+.welfare-box {
+  margin: 100px auto 0 auto ;
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.heading {
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+ margin-top: 100px;
+}
+
+.border {
+  border: solid 2px white;
+  border-width: 20%;
+  width: 500px;
+  margin-top: 40px; 
+}
+
+
+.others {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #5e6060;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+
+.other-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.trip-img {
+  width: 400px;
+  height: 250px;
+}
+
+
+.trip-comment {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+
+}
+
+
+.other-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.event-comment {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+}
+
+
+.event-img {
+  width: 400px;
+  height: 250px;
+}
+
+/* senior.html用スタイル */
+.interview-1 {
+  width: 100%; 
+}
+
+.icon {
+  width: 90px;
+  margin: 0 20px;
+}
+
+.icon-img{
+  width: 100%;
+  height: auto;
+}
+
+.speech-bubble-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.says-left {
+  display: inline-block;
+  position: relative; 
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: white;
+}
+
+.says-left:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid white;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
+
+.interview-2 {
+  width: 100%;
+}
+
+.speech-bubble-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.says-right {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: white;
+}
+
+.says-right:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  right: -24px;
+  border: 12px solid transparent;
+  border-left: 12px solid white;
+}
+
+/* qanda.html用スタイル */
+.qanda-box {
+  margin: 30px auto 0 auto ;
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px; 
+}
+
+/* recuruit.html用スタイル */
+.recruit-box {
+  margin: 30px auto 0 auto ;
+  width: 90%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px; 
+}
+
